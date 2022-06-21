@@ -1,8 +1,8 @@
 ```mermaid
-flowchart LR
+flowchart TD
   id1([Present Interface]) --> id2 
-  id2 --> id3([Student])
-  id2 --> id3([Instructor])
-  id3 --> id4([Admin])
-  id4 --> id5([Other])
-  id3
+  id1 --> id3([Student])
+  id1 --> id3([Instructor])
+  id1 --> id4([Admin])
+  id1 --> id5([Other/Exit])
+  id5
